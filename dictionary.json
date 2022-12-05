@@ -1,0 +1,344 @@
+{
+  "name": "Artemis I",
+  "key": "sc",
+  "measurements": [
+      {
+          "name": "Angular rate of change",
+          "key": "angular_rate_of_change",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Angular rate of change linear rate",
+          "key": "angular_rate_of_change_linear_rate",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Illumination",
+          "key": "illumination",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Sun range",
+          "key": "sun_range",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Sun range rate",
+          "key": "sun_range_rate",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Sun observer target angle",
+          "key": "sun_observer_target_angle",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Angle position",
+          "key": "angle_position",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Heliocentric Velocity Vector",
+          "key": "heliocentric_velocity_vector",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Observer Centered Galatic Lon",
+          "key": "observer_centered_galatic_lon",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Observer Centered Galatic Lat",
+          "key": "observer_centered_galatic_lat",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Sky Motion",
+          "key": "sky_motion",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Sky motion PA",
+          "key": "sky_mot_pa",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      },
+      {
+          "name": "Relvel Ang",
+          "key": "relvel_ang",
+          "values": [
+              {
+                  "key": "value",
+                  "name": "Value",
+                  "units": "units",
+                  "format": "float",
+                  "min": 0,
+                  "max": 100,
+                  "hints": {
+                      "range": 1
+                  }
+              },
+              {
+                  "key": "utc",
+                  "source": "timestamp",
+                  "name": "Timestamp",
+                  "format": "utc",
+                  "hints": {
+                      "domain": 1
+                  }
+              }
+          ]
+      }
+  ]
+}
